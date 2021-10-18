@@ -1,0 +1,44 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: url(./img/skills-for-front-end-back-end-developer.jpg) no-repeat center;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center ;
+    align-items: center;
+    font-family: "open serif", sans-serif;
+    color: #fff;
+    cursor: pointer;
+}
+.content p{
+    width: 700px;
+    line-height: 26px;
+    font-size: 18px;
+    text-align: justify;
+}
+.cursor{
+    position:fixed;
+        left: 0;
+        top: 0;
+        width: 50px;
+        height: 50px;
+        border: 1px solid #c6c6c6;
+        border-radius: 50%;
+        pointer-events: none;
+        transform: translate(-50%, -50%);
+        transition: .1s ease;
+}
+.cursor2{
+    position:fixed;
+        left: 0;
+        top: 0;
+        width: 8px;
+        height: 8px;
+        border: 1px solid #c6c6c6;
+        border-radius: 50%;
+        pointer-events: none;
+        transform: translate(-50%, -50%);
+        transition: .1s ease;
+}
